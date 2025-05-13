@@ -1,0 +1,29 @@
+.admin-dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.option {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 150px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option:hover {
+  background-color: #e0e0e0;
+}
+
+.option h2 {
+  margin: 0;
+}

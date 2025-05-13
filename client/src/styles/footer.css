@@ -1,0 +1,26 @@
+/* Footer Styles */
+.footer {
+  background-color: #333; /* Match the navbar background color */
+  padding: 30px 20px;
+  color: #fff; /* Match the navbar font color */
+  text-align: center;
+}
+
+.footer-content {
+  font-size: 1rem;
+  color: #fff; /* Match the navbar font color */
+}
+
+.footer-content a {
+  color: #fff; /* Match the navbar font color */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.footer-content p {
+  color: #fff; /* Match the navbar font color */
+}

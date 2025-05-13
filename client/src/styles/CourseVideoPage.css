@@ -1,0 +1,100 @@
+.lms-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar */
+  .nav-bar {
+    background-color: #1a1a1a; /* Updated to match theme */
+    color: #ffffff; /* Updated to match theme */
+    width: 300px; /* Increased width */
+    padding: 20px; /* Added padding */
+    overflow-y: auto; /* Added vertical scroll */
+  }
+  
+  .nav-bar.collapsed {
+    width: 40px;
+  }
+  
+  .video-list {
+    padding: 10px;
+  }
+  
+  .video-item {
+    padding: 15px; /* Increased padding */
+    margin-bottom: 10px; /* Increased margin */
+    background-color: #333333; /* Updated to match theme */
+    border-radius: 8px; /* Increased border radius */
+    cursor: pointer;
+    user-select: none;
+    color: black; /* Changed to black */
+  }
+  
+  .video-item:hover {
+    background-color: #555555; /* Updated to match theme */
+  }
+  
+  /* Video Player */
+  .video-player {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px; /* Increased padding */
+    background-color: #f4f4f4; /* Updated to match theme */
+  }
+  
+  video {
+    width: 100%;
+    max-width: 900px; /* Increased max width */
+    height: auto;
+    border: 2px solid #333333; /* Updated to match theme */
+    border-radius: 10px; /* Increased border radius */
+  }
+
+  iframe {
+    width: 100%;
+    max-width: 900px; /* Increased max width */
+    height: 500px; /* Set height */
+    border: 2px solid #333333; /* Updated to match theme */
+    border-radius: 10px; /* Increased border radius */
+    position: relative; /* Added for fullscreen */
+  }
+
+  iframe:fullscreen {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-subtitles {
+    margin-top: 20px; /* Increased margin */
+    text-align: center;
+  }
+  
+  .video-subtitles h3 {
+    margin: 10px 0; /* Increased margin */
+    font-size: 26px; /* Increased font size */
+    color: black; /* Ensure title color is black */
+  }
+  
+  .video-subtitles p {
+    font-size: 18px; /* Increased font size */
+    color: #333333; /* Updated to match theme */
+  }
+
+  button#fullscreenBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button#fullscreenBtn:hover {
+    background-color: #0056b3;
+  }

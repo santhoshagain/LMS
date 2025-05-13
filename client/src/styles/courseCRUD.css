@@ -1,0 +1,82 @@
+.course-crud {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.course-list {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.course-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.course-list th, .course-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.course-list th {
+  background-color: #f2f2f2;
+}
+
+.course-list tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.course-list tr:hover {
+  background-color: #ddd;
+}
+
+.course-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.course-details p {
+  margin: 10px 0;
+}
+
+.course-details button {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

@@ -1,0 +1,112 @@
+.profile-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile-header h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.profile-info {
+    line-height: 1.6;
+}
+
+.profile-item {
+    margin-bottom: 1rem;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-item strong {
+    color: #333;
+}
+
+.profile-item span {
+    color: #666;
+}
+
+.profile-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-item ul li {
+    margin-bottom: 0.5rem;
+}
+
+.profile-item ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.profile-item ul li a:hover {
+    text-decoration: underline;
+}
+
+.profile-field {
+    margin-bottom: 15px;
+}
+
+.profile-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.profile-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.profile-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary {
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    padding: 10px 15px;
+    background: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+.btn-secondary:hover {
+    background: #5a6268;
+}

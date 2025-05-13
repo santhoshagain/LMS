@@ -1,4 +1,4 @@
-# Secure LMS Web Application (2025)
+# Secure LMS Web Application
 
 ## 🔐 Overview
 
